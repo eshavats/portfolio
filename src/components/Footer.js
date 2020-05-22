@@ -2,6 +2,9 @@ import React from "react";
 
 const Footer = () => {
 
+    const date = new Date();
+    const year = date.getFullYear();
+
     return (
         <div class="bottom-container">
         <br />
@@ -11,7 +14,7 @@ const Footer = () => {
         <a class="footer-link" href="https://github.com/eshavats">Github</a>
         <i class="fab fa-instagram social-icon"></i>
         <a class="footer-link" href="https://www.instagram.com/slaycoldplay/ ">Instagram</a>
-        <p class="end">© 2020 Esha Vats. All rights reserved.</p>
+        <p class="end">© {year} Esha Vats. All rights reserved.</p>
         <br />
       </div>
     );
