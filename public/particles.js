@@ -19,7 +19,7 @@ window.onload = function() {
           breakpoint: 425,
           options: {
             maxParticles: 100,
-            connectParticles: true
+            connectParticles: false
           }
         }, {
           breakpoint: 320,
@@ -33,3 +33,8 @@ window.onload = function() {
 };
 //ParticleJS End
 
+// Contact Form Modal
+$(document).ready(() => {
+  setTimeout(() => $("#modalContactForm").modal('show'), 3000);
+});
+// Contact Form Modal End
