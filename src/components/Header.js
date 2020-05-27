@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./Header.css";
+
 const Header = () => {
 
     return (
@@ -11,7 +13,7 @@ const Header = () => {
             <div class="navbar-collapse" id="navbarText">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                <a class="nav-link" href="#">About Me<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#about">About Me<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                 <a class="nav-link" href="#">Skills</a>

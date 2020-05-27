@@ -4,30 +4,6 @@
     /* text-align: center; */
   }
   
-  h1 {
-    margin-top: 0;
-    margin-bottom: 3.5%;
-    color: #b21f66;
-    font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
-    font-weight: 700;
-    font-size: 3.5vw;
-    line-height: 23px;
-    letter-spacing: 3px;
-  }
-  
-  p {
-    font-style: normal;
-    font-variant: normal;
-    font-size: 2vw;
-    /* line-height: 2; */
-    letter-spacing: 3px;
-    /* margin-left: 40px;
-    margin-right: 40px; */
-    text-align: center;
-    /* width: 50%; */
-    padding: 20px;
-  }
-  
   .background { 
     position: absolute;
     display: block;
@@ -35,104 +11,16 @@
     left: 0;
     z-index: 0;
   }
-  
-  /* Navigation Bar */
-  
-  nav {
-    /* background-color: #790c5a ; */
-    background-image: linear-gradient(#790c5a, white);
-    opacity: 0.7;
-  }
-  
-  .navbar-brand {
-    font-size: 2.9vw;
-    letter-spacing: 2px;
-    font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
-  }
-  
-  .navbar-brand:hover {
-    color: white;
+
+  .main {
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
   }
 
-  .diamond {
-      color: white;
-      font-size: 2.75vw;
-  }
   
   
-  .toggler-icon {
-    color: black;
-  }
   
-  .nav-link {
-    letter-spacing: 1px;
-  }
+
   
-  nav a {
-    color: white;
-    font-size: 1.5vw;
-  }
   
-  nav a:hover {
-    color: black;
-    text-decoration: none;
-  }
-  
-  .nav-link:hover {
-    background-color: white;
-    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2), 4px 6px 20px 4px rgba(0, 0, 0, 0.19);
-  }
-  
-  /* .dropdown-menu a {
-    font-size: 1.5vw;
-    color: #790c5a;
-    margin: 8%;
-  } */
-  
-  /* Starting Screen */
-  
-  .top-container {
-    position: relative;
-    text-align: center;
-    padding-top: 6%;
-  }
-  
-  .mountain {
-    width: 100%;
-  }
-  
-  /* .name {
-    background-image: linear-gradient(white, #fbdff0);
-  } */
-  
-  /* Footer */
-  
-  .bottom-container {
-    margin: 0 0;
-    padding-top: 2%;
-    background-color: #790c5a ;
-    opacity: 0.73;
-    text-align: center;
-  }
-  
-  .footer-link {
-    /* margin: 10% 3% 10% 0.5%; */
-    margin: 1%;
-    font-size: 1.3vw;
-    color: white;
-  }
-  
-  .footer-link:hover {
-    color: black;
-    text-decoration: none;
-  }
-  
-  .end {
-    font-size: 1.5vw;
-    color: white;
-  }
-  
-  .social-icon { 
-    color: white;
-    font-size: 1.5vw;
-  }

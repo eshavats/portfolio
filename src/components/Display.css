@@ -1,0 +1,39 @@
+  /* Starting Screen */
+
+  .intro {
+    margin-top: 0;
+    margin-bottom: 3.5%;
+    color: #b21f66;
+    font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 3.5vw;
+    line-height: 23px;
+    letter-spacing: 3px;
+  }
+
+  .begin {
+    text-align: center;
+    padding: 20px;
+    font-style: normal;
+    font-variant: normal;
+    font-size: 2vw;
+    /* line-height: 2; */
+    letter-spacing: 3px;
+    /* margin-left: 40px;
+    margin-right: 40px; */
+    /* width: 50%; */
+  }
+  
+  .top-container {
+    position: relative;
+    text-align: center;
+    padding-top: 6%;
+  }
+  
+  .mountain {
+    width: 100%;
+  }
+  
+  /* .name {
+    background-image: linear-gradient(white, #fbdff0);
+  } */

@@ -4,6 +4,7 @@ import Header from "./Header";
 import Display from "./Display";
 import ContactForm from "./ContactForm";
 import Modal from "./Modal";
+import About from "./About";
 import Footer from "./Footer";
 
 
@@ -17,6 +18,9 @@ const App = () => {
         />
         <Header />
         <Display />
+        <div className="main">
+            <About />
+        </div>
         <Footer />
         </>
     );
